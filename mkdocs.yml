@@ -58,6 +58,9 @@ markdown_extensions:
   - pymdownx.tilde
   - def_list
 
+extra_javascript:
+  - //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
+
 extra:
   social:
     - icon: fontawesome/brands/github
