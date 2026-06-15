@@ -1,0 +1,60 @@
+site_name: 漏洞挖掘专家
+site_description: 从零开始学习漏洞挖掘与利用
+site_author: QClaw
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+
+nav:
+  - 首页: index.md
+  - 第1章 漏洞研究之道: chapters/ch01.md
+  - 第2章 搭建环境: chapters/ch02.md
+  - 第3章 C_C++与汇编: chapters/ch03.md
+  - 第4章 内存模型: chapters/ch04.md
+  - 第5章 逆向工程基础: chapters/ch05.md
+  - 第6章 动态分析: chapters/ch06.md
+  - 第7章 漏洞分类与原理: chapters/ch07.md
+  - 第8章 Fuzzing技术: chapters/ch08.md
+  - 第9章 静态分析: chapters/ch09.md
+  - 第10章 Web漏洞上: chapters/ch10.md
+  - 第11章 Web漏洞下: chapters/ch11.md
+  - 第12章 二进制利用上: chapters/ch12.md
+  - 第13章 二进制利用下: chapters/ch13.md
+  - 第14章 内核漏洞挖掘: chapters/ch14.md
+  - 第15章 恶意软件分析: chapters/ch15.md
+  - 第16章 漏洞披露: chapters/ch16.md
+  - 第17章 实战挖掘CVE: chapters/ch17.md
+  - 第18章 职业发展: chapters/ch18.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.tilde
+  - def_list
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://gitcode.com
